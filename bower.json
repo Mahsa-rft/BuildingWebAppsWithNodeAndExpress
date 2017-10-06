@@ -1,0 +1,21 @@
+{
+  "name": "training",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "mahsa rafat <mahsa_rft@icloud.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Mahsa-rft/BuildingWebAppsWithNodeAndExpress",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "font-awsome#^4.7.0"
+  }
+}

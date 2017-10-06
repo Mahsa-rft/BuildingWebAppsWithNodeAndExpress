@@ -1,0 +1,22 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahsa-rft/BuildingWebAppsWithNodeAndExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahsa-rft/BuildingWebAppsWithNodeAndExpress/issues"
+  },
+  "homepage": "https://github.com/Mahsa-rft/BuildingWebAppsWithNodeAndExpress#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
