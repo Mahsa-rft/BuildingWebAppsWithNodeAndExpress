@@ -11,7 +11,7 @@ module.exports = function () {
                     var url =
                         'mongodb://localhost:27017/libraryApp';
                     mongodb.connect(url, function (err, db) {
-                        var collection = db.collection('users')
+                        var collection = db.collection('users');
                         collection.findOne({username: username},
                             function(err, results) {
                                 if (results.password === password) {
@@ -24,4 +24,4 @@ module.exports = function () {
                         );
                     });
                 }));
-};
+    };
